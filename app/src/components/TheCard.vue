@@ -13,6 +13,7 @@ const glassItems = [
     image: '@/public/Glass_Items/3ee25c432c7c4099aa04163907fc100b.webp',
   },
   {
+    //
     name: 'Placeholder Name2',
     price: 'Placeholder Price2',
     image: '@/public/Glass_Items/image-asset.jpeg',
