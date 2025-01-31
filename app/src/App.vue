@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import glassItems from '@/components/TheCard.vue'
 </script>
 
 <template>
