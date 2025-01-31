@@ -14,6 +14,3 @@
   }
 }
 </style>
-<script>
-import TheCard from '@/components/TheCard.vue'
-</script>
