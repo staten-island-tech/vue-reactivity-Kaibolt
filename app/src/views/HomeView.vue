@@ -5,6 +5,7 @@ import TheCard from '../components/TheCard.vue'
 
 <template>
   <main>
+    <TheCard />
     <TheWelcome />
   </main>
 </template>
