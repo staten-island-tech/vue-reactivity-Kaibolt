@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <h2 v-for="glassItem in glassItems">{{ glassItem.name }}</h2>
-    <h3 v-for="glassItem in glassItems">{{ glassItem.price }}</h3>
-    <img v-for="glassItem in glassItems" :src="glassItem.image" />
+  <div class="card bg-base-100 w-96 shadow-xl">
+    <div class="card-body">
+      <h2 class="card-title">{{ glassItem.name }}</h2>
+      <p>{{ glassItem.price }}</p>
+    </div>
+    <figure>
+      <img :src="glassItem.image" />
+    </figure>
   </div>
 </template>
 
