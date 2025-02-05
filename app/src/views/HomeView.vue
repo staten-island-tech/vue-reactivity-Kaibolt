@@ -5,7 +5,8 @@ import TheCard from '../components/TheCard.vue'
 
 <template>
   <main>
-    <TheCard />
-    <TheWelcome />
+    <div class="flex flex-wrap justify-around gap-y-6 gap-x-4 max-w-[90%] place-self-center">
+      <TheCard />
+    </div>
   </main>
 </template>
