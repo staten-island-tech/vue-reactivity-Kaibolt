@@ -13,15 +13,21 @@
 <script setup>
 const glassItems = [
   {
-    name: 'Placeholder Name1',
-    price: 'Placeholder Price1',
+    name: 'Antique Carnival Glass',
+    price: '$1400.50',
     image: '/Glass_Items/3ee25c432c7c4099aa04163907fc100b.webp',
     imgDesc: 'Image Desc1',
   },
   {
-    name: 'Placeholder Name2',
-    price: 'Placeholder Price2',
+    name: 'Antique German Schwarzlot Uranium Glass Vase',
+    price: '$995.00',
     image: '/Glass_Items/image-asset.jpeg',
+    imgDesc: 'Image Desc2',
+  },
+  {
+    name: 'Decorative Recycled Glass Balls',
+    price: '$84.99',
+    image: '/Glass_Items/decorative-recycled-glass-balls-m.jpg',
     imgDesc: 'Image Desc2',
   },
 ]
