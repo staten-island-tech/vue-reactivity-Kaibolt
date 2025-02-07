@@ -1,49 +1,139 @@
 <template>
-  <div v-for="glassItem in glassItems" class="card bg-base-100 w-96 shadow-xl">
+  <div v-for="allItem in allItems" class="card bg-base-100 w-96 shadow-xl">
     <div class="card-body">
-      <h2 class="card-title">{{ glassItem.name }}</h2>
-      <p>{{ glassItem.price }}</p>
+      <h2 class="card-title">{{ allItem.name }}</h2>
+      <p>Price: {{ allItem.price }} | Category: {{ allItem.category }}</p>
     </div>
     <figure>
-      <img :src="glassItem.image" />
+      <img :src="allItem.image" />
     </figure>
   </div>
 </template>
 
 <script setup>
-const glassItems = [
+const allItems = [
   {
     name: 'Antique Carnival Glass',
     price: '$1400.50',
     image: '/Glass_Items/3ee25c432c7c4099aa04163907fc100b.webp',
-    imgDesc: 'Image Desc1',
+    category: 'Glass',
   },
   {
     name: 'Antique German Schwarzlot Uranium Glass Vase',
     price: '$995.00',
     image: '/Glass_Items/image-asset.jpeg',
-    imgDesc: 'Image Desc2',
+    category: 'Glass',
   },
   {
     name: 'Decorative Recycled Glass Balls',
     price: '$84.99',
     image: '/Glass_Items/decorative-recycled-glass-balls-m.jpg',
-    imgDesc: 'Image Desc2',
+    category: 'Glass',
   },
-]
-const metalItems = [
+  {
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
+    image: '/Glass_Items/9bc87b_9bc3620c29bf4ee0b43402a701e2fb8e~mv2.webp',
+    category: 'Glass',
+  },
+  {
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
+    image: '/Glass_Items/34ad5b2764da401d8f0b29c7ed0109fd.jpg',
+    category: 'Glass',
+  },
+  {
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
+    image: '/Glass_Items/71V+vt2fGeL._AC_UF894,1000_QL80_.jpg',
+    category: 'Glass',
+  },
+  {
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
+    image: '/Glass_Items/antique-glass-index.jpg',
+    category: 'Glass',
+  },
+  {
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
+    image: '/Glass_Items/e0da895c-88cf-4250-b405-a287d1101207-IMG_5756.webp',
+    category: 'Glass',
+  },
+  {
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
+    image: '/Glass_Items/il_fullxfull.4443541570_3cme.avif',
+    category: 'Glass',
+  },
+  {
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
+    image: '/Glass_Items/recycled-blue-glass-bud-vase-0v8a5389-515x515.jpeg',
+    category: 'Glass',
+  },
+
   {
     name: '19th Century Metal Scale',
     price: 'Placeholder Price',
     image:
       '/Metal_Items/19th-century-collection-of-bell-metal-balance-scale-weights_208813_pic1_size3.webp',
-    imgDesc: 'Image Desc1',
+    category: 'Metal',
   },
   {
-    name: 'Placeholder Name2',
+    name: 'Antique Desk Set',
     price: 'Placeholder Price2',
     image: '/Metal_Items/12856-antique-gilt-metal-desk-set-in-wooden-velvet-lined-case-4-2000x.jpg',
-    imgDesc: 'Image Desc2',
+    category: 'Metal',
+  },
+  {
+    name: 'Antique Desk Set',
+    price: 'Placeholder Price2',
+    image: '/Metal_Items/12856-antique-gilt-metal-desk-set-in-wooden-velvet-lined-case-6-2000x.jpg',
+    category: 'Metal',
+  },
+  {
+    name: 'Antique Metal Lock & Key',
+    price: 'Placeholder Price2',
+    image: '/Metal_Items/102203.webp',
+    category: 'Metal',
+  },
+  {
+    name: 'Antique Metal Jardinieres',
+    price: 'Placeholder Price2',
+    image: '/Metal_Items/antique-metal-jardinieres.jpg',
+    category: 'Metal',
+  },
+  {
+    name: 'Antique Metal Planter Cage Orbs',
+    price: 'Placeholder Price2',
+    image: '/Metal_Items/antique-style-metal-wire-hanging-orb-planter-cages-set-of-2-1.jpg',
+    category: 'Metal',
+  },
+  {
+    name: 'Antique French Pocket Watch',
+    price: 'Placeholder Price2',
+    image:
+      '/Metal_Items/beautiful-antique-french-verge-fusee-pocket-watch-guerin-a-lille-c-1820.jpg',
+    category: 'Metal',
+  },
+  {
+    name: 'Antique English Brass Trivet',
+    price: 'Placeholder Price2',
+    image: '/Metal_Items/English-Antique-Brass-Trivet-Photo-By-Wakefield-Scearce-Galleries.jpg',
+    category: 'Metal',
+  },
+  {
+    name: '1870s Antique Floor Globe',
+    price: 'Placeholder Price2',
+    image: '/Metal_Items/franklin-16-floor-300x300.jpg',
+    category: 'Metal',
+  },
+  {
+    name: 'Square Metal Clock',
+    price: 'Placeholder Price2',
+    image: '/Metal_Items/square-metal-clock-dials.jpg',
+    category: 'Metal',
   },
 ]
 </script>
