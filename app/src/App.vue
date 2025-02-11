@@ -4,7 +4,9 @@ import FirstTest from '@/components/FirstTest.vue'
 </script>
 
 <template>
-  <div class="flex justify-around gap-y-6 gap-x-4 max-w-[90%] place-self-center grow">
+  <div
+    class="flex justify-around gap-y-6 gap-x-4 max-w-[90%] place-self-center justify-self-center"
+  >
     <TheCard />
   </div>
 </template>
