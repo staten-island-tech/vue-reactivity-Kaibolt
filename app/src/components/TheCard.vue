@@ -7,11 +7,6 @@
     <figure>
       <img :src="allItem.image" />
     </figure>
-    <br />
-    <div class="card-actions justify-center">
-      <button class="btn btn-primary">Buy Now</button>
-    </div>
-    <br />
   </div>
 </template>
 
@@ -36,44 +31,44 @@ const allItems = [
     category: 'Glass',
   },
   {
-    name: 'Mt. Washington Glass Rose Amber Diamond Optic Finger Bowl',
-    price: '$179.88',
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
     image: '/Glass_Items/9bc87b_9bc3620c29bf4ee0b43402a701e2fb8e~mv2.webp',
     category: 'Glass',
   },
   {
-    name: 'Vintage Fostoria Jamestown Pink Sherbet Champagne Glass',
-    price: '$52.99',
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
     image: '/Glass_Items/34ad5b2764da401d8f0b29c7ed0109fd.jpg',
     category: 'Glass',
   },
   {
-    name: 'Decorative Glass Salad Seving Bowl',
-    price: '$127.50',
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
     image: '/Glass_Items/71V+vt2fGeL._AC_UF894,1000_QL80_.jpg',
     category: 'Glass',
   },
   {
-    name: 'Signed Val St Lambert Comport c1920',
-    price: '$198.15',
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
     image: '/Glass_Items/antique-glass-index.jpg',
     category: 'Glass',
   },
   {
-    name: 'Blue Murano Glass',
-    price: '$34.00',
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
     image: '/Glass_Items/e0da895c-88cf-4250-b405-a287d1101207-IMG_5756.webp',
     category: 'Glass',
   },
   {
-    name: 'Ruffled Amberina Pattern Antique Red Cadmium Glass Compote Depression Glass',
-    price: '$81.99',
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
     image: '/Glass_Items/il_fullxfull.4443541570_3cme.avif',
     category: 'Glass',
   },
   {
-    name: 'Recycled Blue Glass Bud Vase, H10cm',
-    price: '$6.50',
+    name: 'GlassItemPlaceholder',
+    price: '$PricePlaceholder.CentsHere',
     image: '/Glass_Items/recycled-blue-glass-bud-vase-0v8a5389-515x515.jpeg',
     category: 'Glass',
   },
