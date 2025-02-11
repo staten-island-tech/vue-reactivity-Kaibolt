@@ -1,13 +1,13 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 import TheCard from '@/components/TheCard.vue'
+import TheShop from '@/components/TheShop.vue'
 </script>
 
 <template>
   <div class="flex flex-wrap justify-around gap-y-6 gap-x-4 max-w-[90%] place-self-center">
     <TheCard />
   </div>
+  <TheShop />
 </template>
 
 <style scoped>
