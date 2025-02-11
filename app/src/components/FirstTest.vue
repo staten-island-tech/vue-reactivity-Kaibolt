@@ -1,9 +1,13 @@
 <template>
-  <div>
+  <div id="testShop">
     <h1>Test!</h1>
   </div>
 </template>
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.testShop {
+  background-color: blue;
+}
+</style>
