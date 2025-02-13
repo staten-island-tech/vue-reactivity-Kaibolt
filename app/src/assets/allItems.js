@@ -1,4 +1,4 @@
-const allItems = [
+export const allItems = [
   {
     name: 'Antique Carnival Glass',
     price: '$1400.50',

@@ -1,3 +1,7 @@
+<script setup>
+import allItems from '@/assets/allItems.js'
+console.log(allItems)
+</script>
 <template>
   <div v-for="allItem in allItems" class="card bg-base-100 w-96 shadow-xl">
     <div class="card-body">
@@ -14,9 +18,5 @@
     <br />
   </div>
 </template>
-
-<script setup>
-import allItems from '@/assets/allitems'
-</script>
 
 <style scoped></style>
