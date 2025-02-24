@@ -1,5 +1,5 @@
 <script setup>
-import allItems from '@/assets/allItems.js'
+import { allItems } from '@/assets/allItems.js'
 console.log(allItems)
 </script>
 <template>
