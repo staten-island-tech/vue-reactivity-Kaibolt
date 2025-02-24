@@ -1,9 +1,10 @@
 <script setup>
 import TheCard from '@/components/TheCard.vue'
-import FirstTest from '@/components/FirstTest.vue'
+import TheShop from '@/components/TheShop.vue'
 </script>
 
 <template>
+  <TheShop />
   <div
     class="flex justify-around gap-y-6 gap-x-4 max-w-[90%] place-self-center justify-self-center"
   >
