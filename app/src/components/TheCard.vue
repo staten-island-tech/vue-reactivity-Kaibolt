@@ -3,8 +3,9 @@ import { allItems } from '@/assets/allItems.js'
 
 const cartBase = defineProps({
   addToCart: Function,
-})
+}) // This is like, ooh we can run a function, but I'm unsure what typa function
 const cartBuy = (item) => cartBase.addToCart(item) //If this doesn't work, I'm going to be very sad.
+// cartBuy is like saying, ooh, we'll use the item and run a function to do the undecided function that you can just decide later in a different file. I'm losing my mind over here, send help.
 </script>
 <template>
   <div v-for="allItem in allItems" class="card bg-base-100 w-96 shadow-xl">
