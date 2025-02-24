@@ -1,10 +1,10 @@
 <script setup>
 import { allItems } from '@/assets/allItems.js'
-import { defineProps } from 'vue'
+
 const cartBase = defineProps({
   addToCart: Function,
 })
-const cartBuy = (item) => cartBase.addtoCart(item) //If this doesn't work, I'm going to be very sad.
+const cartBuy = (item) => cartBase.addToCart(item) //If this doesn't work, I'm going to be very sad.
 </script>
 <template>
   <div v-for="allItem in allItems" class="card bg-base-100 w-96 shadow-xl">
